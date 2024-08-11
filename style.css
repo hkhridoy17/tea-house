@@ -133,3 +133,65 @@ section {
   font-weight: 500;
   color: rgb(75, 75, 75);
 }
+
+/* product2 section */
+.product2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.product2-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.product2-cards-col1,
+.product2-cards-col2 {
+  display: grid;
+  grid-template-rows: repeat(7, 50px);
+  gap: 20px;
+}
+.product2-cards img {
+  width: fit-content;
+  height: 100%;
+}
+.blank1,
+.blank2,
+.tea1,
+.tea2 {
+  text-align: center;
+  border-radius: 10px;
+}
+.blank1 {
+  grid-row: 1 / span 2;
+  background-image: linear-gradient(
+    to right,
+    rgba(241, 197, 197, 0.8),
+    rgba(241, 197, 197, 0.3)
+  );
+}
+.tea2 {
+  grid-row: 3 / span 5;
+  background-color: rgba(202, 200, 196, 0.4);
+  padding: 20px 0;
+}
+.tea1 {
+  grid-row: 1 / span 5;
+  background-color: rgba(236, 196, 110, 0.2);
+  padding: 20px 0;
+}
+.blank2 {
+  grid-row: 6 / span 2;
+  background-image: linear-gradient(
+    to right,
+    rgba(145, 139, 139, 0.8),
+    rgba(145, 139, 139, 0.3)
+  );
+}
+.product2-content h4 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
