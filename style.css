@@ -291,3 +291,82 @@ section {
   font-weight: 700;
   color: black;
 }
+
+/* footer section */
+footer {
+  background-color: rgb(250, 232, 222);
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.footer-top,
+.footer-top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.footer-top-content p {
+  font-size: 1rem;
+}
+.footer-top-image img {
+  width: 100%;
+}
+.footer-middle {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-middle-col-1 nav,
+.footer-middle-col-2 nav,
+.footer-middle-col-3 nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.footer-middle-col-1 a,
+.footer-middle-col-2 a,
+.footer-middle-col-3 a {
+  text-decoration: none;
+  color: rgb(90, 90, 90);
+}
+.footer-middle-col-4 h3 {
+  font-size: 1.35rem;
+  margin-bottom: 24px;
+}
+.footer-middle-col-4 .subscribe-input {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.footer-middle-col-4 input[type="email"] {
+  border: none;
+  border-bottom: 1px solid rgb(151, 151, 151);
+  background: transparent;
+  padding: 10px 0;
+}
+.footer-middle-col-4 button {
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.footer-middle-col-4 .social-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 24px;
+}
+.footer-middle-col-4 .social-links a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: rgb(50, 50, 50);
+}
+.footer-bottom {
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 1rem;
+}

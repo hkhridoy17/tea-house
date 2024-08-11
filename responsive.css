@@ -101,4 +101,30 @@
   .single-event-card a {
     font-size: 0.875rem;
   }
+
+  /* footer section */
+  footer {
+    padding: 50px 10px;
+    gap: 50px;
+  }
+  .footer-top,
+  .footer-top-content {
+    gap: 10px;
+  }
+  .footer-top-content p {
+    font-size: 0.75rem;
+  }
+  .footer-top-content button {
+    font-size: 0.75rem;
+    padding: 10px 15px;
+  }
+  .footer-top-image img {
+    width: 70%;
+  }
+  .footer-middle {
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 }
