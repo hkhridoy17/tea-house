@@ -81,4 +81,24 @@
   .single-client {
     width: 75%;
   }
+
+  /* event section */
+  .event-cards {
+    margin-top: 30px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .single-event-card {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .single-event-card h3 {
+    font-size: 1.15rem;
+  }
+  .single-event-card p {
+    font-size: 0.875rem;
+    margin: 10px 0;
+  }
+  .single-event-card a {
+    font-size: 0.875rem;
+  }
 }
